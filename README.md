@@ -1,24 +1,44 @@
-Showing the use of ConfigCat's Feature Flags in a Svelte Application
 
-# Sample application name and/or blogpost title
+
+# How to Implement and use Feature Flags in a Svelte Application
 
 #### (Optional) In case the blog post is already published, please add: [Read the blog post here](https://configcat.com/blog/)
 
-A few words about the contents of the repository. Whats is this application about, what does it demonstrate? Add a backlink to https://configcat.com
+A sample application showcasing how to implement ConfigCat's Feature Flags in a Svelte Application
+
+
+About Sample App
+A demo Svelte application with a simple feature that fetches that displays a random fact about cats each time a user visits or reloads the page. However, the feature is wrapped with a feature flag, so users can only see it when the feature flag is toggled on. Otherwise, a display message is rendered informing users of its unavailability when toggled off.
 
 ## Build & Run
 
-Instructions on how to build and run the application locally. A student or junior developer should be able to run the application.
-- Prerequisites
-- Steps, commands to run
+### Prerequisites
+
+- Node v16
+- Svelte v3.49
+- Vite v3.1
+
+### Running the app
+
+1. Clone this repository
+
+2. Open a terminal in the root of the cloned repo and install the required npm packages:
+
+```sh
+npm install
+```
+
+3. Start the app by running:
+
+```sh
+npm run dev
+```
 
 ## Learn more
 
 Useful links to technical resources.
 
-Example:
-- Next.js Documentation - learn about Next.js features and API.
-- Learn Next.js - an interactive Next.js tutorial.
+- [Svelte Documentation](https://svelte.dev/) - learn about Svelte.
 
 [**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
 
@@ -27,7 +47,7 @@ You can also explore other code samples for various languages, frameworks, and t
 Keep up with ConfigCat on [Twitter](https://twitter.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
 
 ## Author
-[Your Name](https://github.com/your_name)
+[David Herbert](https://github.com/DaveyHert)
 
 ## Contributions
 Contributions are welcome!
