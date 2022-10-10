@@ -2,10 +2,7 @@
 
 # How to Implement and use Feature Flags in a Svelte Application
 
-#### (Optional) In case the blog post is already published, please add: [Read the blog post here](https://configcat.com/blog/)
-
 A sample application showcasing how to implement ConfigCat's Feature Flags in a Svelte Application
-
 
 About Sample App
 A demo Svelte application with a simple feature that fetches that displays a random fact about cats each time a user visits or reloads the page. However, the feature is wrapped with a feature flag, so users can only see it when the feature flag is toggled on. Otherwise, a display message is rendered informing users of its unavailability when toggled off.
